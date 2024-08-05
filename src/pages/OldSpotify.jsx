@@ -6,7 +6,7 @@ import BottomNavigationContainer from "../components/BottomNavigationContainer";
 
 const Spotify = () => {
   return (
-    <div className="w-full overflow-hidden h-[900px] relative leading-[normal] bg-dimgray-200 tracking-[normal] text-left text-mini text-darkgray-200 font-helvetica-neue mq850:h-auto mq850:min-h-[900]">
+    <div className="w-full overflow-y-hidden h-[900px] relative leading-[normal] bg-dimgray-200 tracking-[normal] text-left text-mini text-darkgray-200 font-helvetica-neue mq850:h-auto mq850:min-h-[900]">
       <div className="absolute w-[calc(100%_-_241px)] top-[0px] right-[0px] left-[241px] bg-gray-400 h-16 hidden text-center">
         <img
           className="absolute top-[16px] left-[32px] rounded-2xl w-8 h-8"
@@ -31,7 +31,7 @@ const Spotify = () => {
       <h3 className="m-0 absolute top-[471.2px] left-[273px] text-[21px] leading-[27.5px] font-bold font-[inherit] text-white flex items-center mq450:text-[17px]">
         Spotify Playlists
       </h3>
-      <b className="absolute top-[473.2px] left-[calc(100%_-_100px)] text-smi leading-[23px] inline-block text-darkgray-100 min-w-[53px] z-[10]">
+      <b className="absolute top-[473.2px] left-[1353px] text-smi leading-[23px] inline-block text-darkgray-100 min-w-[53px]">
         Show all
       </b>
       <AutoLayoutHorizontal2 />

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const BottomNavigationContainer = ({ className = "" }) => {
   return (
     <div
-      className={`absolute h-full top-[0px] left-[0px] bg-black w-[241px] flex flex-row items-start justify-start z-[1] text-left text-smi text-darkgray-100 font-helvetica-neue ${className}`}
+      className={`fixed h-full overflow-hidden top-[0px] left-[0px] bg-black w-[241px] flex flex-row items-start justify-start z-[1] text-left text-smi text-darkgray-100 font-helvetica-neue ${className}`}
     >
       <div className="self-stretch flex-1 flex flex-col items-start justify-start pt-6 px-0 pb-0 gap-[24.8px]">
         <div className="flex flex-row items-start justify-start py-0 px-6">

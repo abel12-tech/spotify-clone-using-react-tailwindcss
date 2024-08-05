@@ -16,7 +16,7 @@ const Frame = ({ className = "" }) => {
           src="/frame-2.svg"
         />
         <div className="flex-1 flex flex-row items-start justify-end max-w-full">
-          <b className="relative leading-[23px] inline-block min-w-[53px] z-[2]">
+          <b className="absolute top-[473.2px]  text-smi leading-[23px] inline-block text-darkgray-100 min-w-[53px] z-[10]">
             Show all
           </b>
         </div>
